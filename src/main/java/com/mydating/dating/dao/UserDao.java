@@ -36,4 +36,7 @@ public class UserDao {
 		return repository.searchByName(letters);
 	}
 
+	public List<User> searchByEmail(String letters) {
+		return repository.searchByEmail(letters);
+	}
 }
