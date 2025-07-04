@@ -32,4 +32,8 @@ public class UserDao {
 		return repository.findById(id);
 	}
 
+	public List<User> searchByName(String letters) {
+		return repository.searchByName(letters);
+	}
+
 }
